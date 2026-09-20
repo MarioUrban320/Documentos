@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Presentación personal</h1>
+    <p>Hola, soy Mario. Vivo en elcghe y este es mi primer año en la FPS de Desarrollo de Aplicaciones Web.</p>
+    <p>Previamente he cursado la ESO y el Bachillerato en el IES Sixto Marco.</p>
 </body>
 </html>
