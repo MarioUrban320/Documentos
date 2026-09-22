@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+    color: #243447;
+    background: linear-gradient(135deg, #e8f5f2, #dce9f7);
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background: radial-gradient(circle at top right, rgba(255, 255, 255, 0.75), transparent 35%);
+}
+
+body p {
+    max-width: 680px;
+    margin: 0.6rem auto;
+    padding: 1.25rem 1.5rem;
+    border-left: 5px solid #267d78;
+    border-radius: 0 12px 12px 0;
+    background-color: rgba(255, 255, 255, 0.88);
+    box-shadow: 0 8px 24px rgba(36, 52, 71, 0.12);
+    font-size: 1.15rem;
+    line-height: 1.7;
+}
