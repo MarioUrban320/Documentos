@@ -45,3 +45,11 @@ td {
 .columna-resaltada {
     background-color: #bfdbfe;
 }
+
+.svg-incrustado {
+    display: block;
+    width: 100%;
+    max-width: 480px;
+    height: 320px;
+    margin: 0 auto;
+}

@@ -16,6 +16,10 @@
     <h2>Etiqueta img</h2>
     <p>La etiqueta img permite mostrar una imagen guardada en la carpeta del proyecto:</p>
     <img src="imagen-tarea.svg" alt="Paisaje de ejemplo con montañas, un sol y vegetación">
+    <object class="svg-incrustado" data="imagen-tarea.svg" type="image/svg+xml" aria-label="Paisaje de ejemplo">
+        <param name="autoplay" value="true">
+        Este navegador no puede mostrar el SVG.
+    </object>
     <h2>Etiqueta input</h2>
     <p>La etiqueta input permite introducir texto:</p>
     <input type="text" placeholder="Escribe tu nombre">
@@ -49,6 +53,10 @@
             </tr>
         </tbody>
     </table>
-    
+    <h2>Etiqueta embed</h2>
+    <p>La etiqueta embed incrusta un archivo externo, como este SVG del proyecto:</p>
+    <embed class="svg-incrustado" src="imagen-tarea.svg" type="image/svg+xml" title="Paisaje de ejemplo">
+    <h2>Etiqueta param</h2>
+    <p>La etiqueta param se escribía dentro de object para pasarle opciones. Está obsoleta y los navegadores modernos no usan este parámetro para configurar el SVG, así que no cambia la imagen ni muestra contenido propio. El SVG visible se carga con el atributo data de object.</p>
 </body>
 </html>
