@@ -1,0 +1,7 @@
+header, nav, main, section, article, aside, footer, address {
+    border: 2px dashed gray;
+    padding: 8px;
+    margin: 8px;
+}
+body { display: grid; grid-template-columns: 3fr 1fr; }
+header, nav, footer { grid-column: 1 / -1; }
